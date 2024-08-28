@@ -1,0 +1,89 @@
+
+/* Assuming this is your existing CSS file (LoginSignup.css) */
+
+/* Center the form container */
+.loginsignup {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    overflow: hidden;
+  }
+  
+  /* Form container styles */
+  .loginsignup-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px; /* Adjust padding as needed */
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    z-index: 1;
+  }
+  
+  /* Input fields */
+  .loginsignup-fields input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    background:  linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 15px; /* Add space between input fields */
+    box-sizing: border-box; /* Include padding in total width */
+  }
+  
+  /* Button */
+  .loginsignup-btn {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Adjust padding as needed */
+    margin-top: 20px; /* Add space at the top */
+    border: none;
+    background: #ff7e5f;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .loginsignup-btn:hover {
+    background:  linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  }
+  
+  /* Login link */
+  .loginsignup-login span {
+    color: #ff7e5f;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .loginsignup-login span:hover {
+    color: #feb47b;
+  }
+  
+  /* Agreement section */
+  .loginsignup-agree {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+  }
+  
+  .loginsignup-para {
+    font-size: 12px;
+    color: #777;
+    padding-left: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 480px) {
+    .loginsignup-container {
+      padding: 20px;
+      max-width: 100%;
+    }
+  }
+  

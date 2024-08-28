@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'poppins';
+}
+/* @keyframes color {
+    0%   { background: #51aaaa; }
+    20%  { background: #76a4dc; }
+    40%  { background: #9366ce; }
+    60%  { background: #d0bd70; }
+    80%  { background: #e4ae88; }
+    100% { background: #8acfcf; }
+  } 
+  
+ body {
+    background: #33CCCC; 
+    animation: color 9s infinite linear;
+    padding: 2em;
+    font-family: 'poppins';
+  } */
